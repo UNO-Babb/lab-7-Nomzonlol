@@ -10,7 +10,24 @@ def isThreeOrFive(n):
 
 def isPrime(p):
   """Returns boolean (True/False) if the value given is prime."""
-
+  
+  # Handle edge cases
+  if p <= 1:
+    return False
+  if p <= 3:
+    return True
+    
+  # If p is divisible by 2 or 3, it's not prime
+  if p % 2 == 0 or p % 3 == 0:
+    return False
+    
+  # Check all numbers of form 6k±1 up to sqrt(p)
+  i = 5
+  while i * i <= p:
+    if p % i == 0 or p % (i + 2) == 0:
+      return False
+    i += 6
+    
   return True
 
 def isEven(n):
