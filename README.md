@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=19152394)
 # Lab 7 - CIST 1600
 
 One of my favorite "productive procrastination"  sites is [Project Euler](https://projecteuler.net/archives). The site has a series of math puzzles that require programming to solve. Python is a perfect tool for many of these problems and it is a great way to expand on your thinking about algorithms, coding techniques, and math.
